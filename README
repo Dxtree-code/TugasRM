@@ -1,9 +1,19 @@
-First Commit
+The program hasn't been compiled
+If you want to run the program please compile with appropriate CPP compiler such as gcc.
+If you want to compile using gcc, use 
+"gcc [PROGRAM_FILE.c] -o [PROGRAM_OUTPUT_NAME.exe]"
 
-echo "# TugasRM" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Dxtree-code/TugasRM.git
-git push -u origin main
+to compile HelloWorld.cpp
+"gcc HelloWorld.cpp -o HelloWorld.exe"
+
+to compile sayHello.cpp
+"gcc sayHello.cpp -o sayHello.exe"
+
+after getting .exe files, run the program by opening the cmd on folder that contain the file then start the exe 
+
+to start the HelloWorld.exe
+"start HellowWorld.exe"
+
+to start the sayHello.exe
+"start sayHello.exe"
+  
